@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,57 +53,58 @@
   const messages = {
     7: {
       title: "🎁 7 Days to Go - \"A\" for Adorable",
-     text: "You are absolutely <strong>A</strong>dorable, just like this tiny teddy! Your smile, your kindness, and your laugh make everyone’s day brighter. Just 7 days to go before we celebrate the cutest person ever!🎉💕",
+      text: "You are absolutely <strong>A</strong>dorable, just like this tiny teddy! Your smile, your kindness, and your laugh make everyone’s day brighter. Just 7 days to go before we celebrate the cutest person ever!🎉💕",
       bg: "bg-pink-100",
-      img: "teddy-bg.png",
-      music: "kanulanu.mp3"
+      img: "images/teddy-bg.png",
+      music: "music/kanulanu.mp3"
     },
     6: {
       title: "🎁 6 Days to Go - \"S\" for Supportive",
       text: "A bestie like you is truly <strong>S</strong>upportive in every way! From your comforting words to the way you always stand by me, you are a blessing. Only 6 days left before the world celebrates YOU! 💖",
       bg: "bg-indigo-200",
-      img: "stars-bg.png",
-      music: "oke.mp3"
+      img: "images/stars-bg.png",
+      music: "music/oke.mp3"
     },
     5: {
       title: "🎁 5 Days to Go - \"R\" for Radiant",
       text: "You are <strong>R</strong>adiant like the sun, spreading warmth and joy wherever you go! Your energy lights up everyone’s life. Can’t wait to celebrate your glow in 5 days! ☀️✨",
       bg: "bg-yellow-100",
-      img: "golden-bg.png",
-      music: "kushi.mp3"
+      img: "images/golden-bg.png",
+      music: "music/kushi.mp3"
     },
     4: {
       title: "🎁 4 Days to Go - \"I\" for Inspiring",
       text: "Your kindness, strength, and determination make you truly <strong>I</strong>nspiring! You never give up and always bring out the best in others. Just 4 more days until your special day! 🌟💪",
       bg: "bg-blue-100",
-      img: "feathers.png",
-      music: "animal.mp3"
+      img: "images/feathers.png",
+      music: "music/animal.mp3"
     },
     3: {
       title: "🎁 3 Days to Go - \"T\" for Talented",
       text: "Your talent shines so bright! Whether it’s your skills, creativity, or passion, you are truly <strong>T</strong>alented beyond words. Only 3 days left till we celebrate YOU! 🎭🎶",
       bg: "bg-rose-100",
-      img: "crown-bg.png",
-      music: "guche.mp3"
+      img: "images/crown-bg.png",
+      music: "music/guche.mp3"
     },
     2: {
       title: "🎁 2 Days to Go - \"H\" for Heartwarming",
       text: "Your love and care make life so <strong>H</strong>eartwarming! Your presence itself is a gift. Just 2 days left for the most beautiful day of the year—YOUR BIRTHDAY! 💖",
       bg: "bg-purple-100",
-      img: "hearts-bg.png",
-      music: "ninnila.mp3",
+      img: "images/hearts-bg.png",
+      music: "music/ninnila.mp3"
+    },
     1: {
       title: "🎁 1 Day to Go - \"A\" for Angel-like",
       text: "You are truly an <strong>A</strong>ngel, spreading joy, love, and magic wherever you go. Tomorrow, we celebrate YOU—our very own angel on Earth! 1 day to go! 🎂👑",
       bg: "bg-white",
-      img: "clouds.png",
-      music: "inkemin_4211cc095431829.mp3"
+      img: "images/clouds.png",
+      music: "music/inkem.mp3"
     },
     0: {
       text: "Happy 20th Birthday, Ashiiiii! 💖",
       bg: "bg-white",
-      img: "confetti.png",
-      music: "orange.mp3",
+      img: "images/confetti.png",
+      music: "music/orange.mp3",
       surprise: `<div class='bg-white bg-opacity-80 rounded-xl shadow-lg p-4 mt-6 text-center max-w-lg space-y-4'>
         <h2 class='text-xl font-semibold text-pink-700'>Surprise Just for You!</h2>
         <p class='text-md text-gray-800'>Check your messages, darling!</p>
@@ -127,7 +129,7 @@
         </div>
       </div>
       <audio id="bg-music" autoplay loop>
-        <source src="music/${data.music}" type="audio/mpeg" />
+        <source src="${data.music}" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     `;
